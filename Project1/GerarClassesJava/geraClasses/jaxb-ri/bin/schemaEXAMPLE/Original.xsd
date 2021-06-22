@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="researchgate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="researcher" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="researcher">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="researchername" />
+				<xs:element ref="institution" />
+				<xs:element minOccurs="0" ref="department" />
+				<xs:element ref="position" />
+				<xs:element minOccurs="0" ref="rgscore" />
+				<xs:element ref="academicqualifications" />
+				<xs:element ref="about" />
+				<xs:element minOccurs="0" ref=" network " />
+				<xs:element minOccurs="0" ref="projects" />
+				<xs:element minOccurs="0" ref="research" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="researchername">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="institution">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="department" type="xs:string" />
+	<xs:element name="position" type="xs:string" />
+	<xs:element name="rgscore">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:minInclusive value="0" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="academicqualifications" type="xs:string" />
+	<xs:element name="about">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="reads" />
+				<xs:element ref="introduction" />
+				<xs:element maxOccurs="unbounded" ref="skill" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="reads">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="introduction" type="xs:string" />
+	<xs:element name="skill" type="xs:string" />
+	<xs:element name="network">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="cited" />
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="citedby" />
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="follower" />
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="following" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cited" type="xs:string" />
+	<xs:element name="citedby" type="xs:string" />
+	<xs:element name="follower" type="xs:string" />
+	<xs:element name="following" type="xs:string" />
+	<xs:element name="projects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="project" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="project">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="abstract" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="research">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded"
+					ref="item" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="item">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="type" />
+				<xs:element minOccurs="1" maxOccurs="unbounded"
+					ref="author" />
+				<xs:element ref="date" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="abstract" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="type" type="xs:string" />
+	<xs:element name="author" type="xs:string" />
+	<xs:element name="date" type="xs:date" />
+	<xs:element name="name" type="xs:string" />
+	<xs:element name="abstract" type="xs:string" />
+</xs:schema>

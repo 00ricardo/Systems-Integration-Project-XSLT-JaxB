@@ -1,0 +1,1 @@
+./jaxb-ri/bin/xjc.bat xml

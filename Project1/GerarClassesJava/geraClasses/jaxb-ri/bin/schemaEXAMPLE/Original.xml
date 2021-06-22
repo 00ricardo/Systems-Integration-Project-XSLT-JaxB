@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<researchgate>
+	<researcher>
+		<researchername>Henrique Madeira</researchername>
+		<institution>University of Coimbra</institution>
+		<department>Department of Informatics Engineering</department>
+		<position>Full Professor</position>
+		<rgscore>25.41</rgscore>
+		<academicqualifications>PhD</academicqualifications>
+		<about>
+			<reads>22488</reads>
+			<introduction>Research topics: experimental evaluation of dependable
+				computing systems, including security evaluation and benchmarking,
+				fault injection techniques, error detection mechanisms, and
+				transactional systems dependability.
+			</introduction>
+			<skill>Data Warehousing</skill>
+			<skill>Database Management</skill>
+			<skill>Data Modeling</skill>
+			<skill>Relational Databases</skill>
+			<skill>ETL</skill>
+			<skill>IT Security</skill>
+			<skill>Dependability</skill>
+		</about>
+		<network>
+			<cited>Miguel Castelo-Branco</cited>
+			<cited>J.A. Abraham</cited>
+			<cited>Gregor Kiczales</cited>
+			<cited>Eliane Martins</cited>
+			<cited>Jonny Vinter</cited>
+			<citedby>András Pataricza</citedby>
+			<citedby>José Fonseca</citedby>
+			<citedby>Sebastien Tixeuil</citedby>
+			<follower>João Sá</follower>
+			<follower>Javier Cámara</follower>
+			<follower>Jean Araujo</follower>
+			<follower>Nuno Silva</follower>
+			<following>Rodrigo Pastl</following>
+			<following>Janusz Sosnowski</following>
+			<following>Piotr Gawkowski</following>
+			<following>Raquel Almeida</following>
+			<following>István Majzik</following>
+		</network>
+		<projects>
+			<project>
+				<name>TACID: Timely ACID Transactions in DBMS</name>
+			</project>
+			<project>
+				<name>Fault Tolerance</name>
+			</project>
+			<project>
+				<name>Software Fault Injection</name>
+				<abstract>How to inject realistic software faults (i.e., bugs) to
+					evaluate the behavior of software components and systems in the
+					presence of active software faults. Covers the research on software
+					fault injection proposals and tools since 2000.
+				</abstract>
+			</project>
+		</projects>
+		<research>
+			<item>
+				<name>The Effects of Soft Errors and Mitigation Strategies for
+					Virtualization Servers
+				</name>
+				<type>Article</type>
+				<author>Frederico Cerveira</author>
+				<author>Raul Barbosa</author>
+				<author>Henrique Madeira</author>
+				<author>Filipe Araujo</author>
+				<date>2020-02-01</date>
+				<abstract>Virtualized servers compose the majority of cloud
+					computing environments, where these nodes are used to host multiple
+					clients over the same hardware. Many organizations run online
+					applications by hiring elastic computing resources in order to
+					match demand while reducing fixed costs. However, such
+					organizations are unlikely to take advantage of thes...
+				</abstract>
+			</item>
+			<item>
+				<name>The most frequent programming mistakes that cause software
+					vulnerabilities
+				</name>
+				<type>Preprint</type>
+				<author>Raul Barbosa</author>
+				<author>Frederico Cerveira</author>
+				<author>Luís Gonçalo</author>
+				<author>Henrique Madeira</author>
+				<date>2019-12-01</date>
+				<abstract>All computer programs have flaws, some of which can be
+					exploited to gain unauthorized access to computer systems. We
+					conducted a field study on publicly reported vulnerabilities
+					affecting three open source software projects in widespread use.
+					This paper highlights the main observations and conclusions from
+					the field data collected in the study.
+				</abstract>
+			</item>
+			<item>
+				<name>Spotting Problematic Code Lines using Nonintrusive
+					Programmers' Biofeedback
+				</name>
+				<type>Conference Paper</type>
+				<author>Ricardo Couceiro</author>
+				<author>Paulo Carvalho</author>
+				<author>Miguel Castelo-Branco</author>
+				<author>Julio Medeiros</author>
+				<date>2019-10-01</date>
+			</item>
+			<item>
+				<name>A Self-certifiable Architecture for Critical Systems Powered
+					by Probabilistic Logic Artificial Intelligence
+				</name>
+				<type>Chapter</type>
+				<author>Jacques Robin</author>
+				<author>Raúl Mazo</author>
+				<author>Henrique Madeira</author>
+				<author>Salvador Abreu</author>
+				<date>2019-08-01</date>
+				<abstract>We present a versatile architecture for AI-powered
+					self-adaptive self-certifiable critical systems. It aims at
+					supporting semi-automated low-cost re-certification for
+					self-adaptive systems after each adaptation of their behavior to a
+					persistent change in their operational environment throughout their
+					lifecycle.
+				</abstract>
+			</item>
+		</research>
+	</researcher>
+	<researcher>
+		<researchername>Ana Bastos Silva</researchername>
+		<institution>University of Coimbra</institution>
+		<department>Department of Civil Engineering</department>
+		<position>Professor(Assistant)</position>
+		<rgscore>17.36</rgscore>
+		<academicqualifications>PhD</academicqualifications>
+		<about>
+			<reads>7783</reads>
+			<introduction></introduction>
+			<skill>Modeling and Simulation</skill>
+			<skill>Model Development</skill>
+			<skill>Calibration</skill>
+		</about>
+		<network>
+			<cited>Jaume Barcelo</cited>
+			<cited>Hesham Rakha</cited>
+			<cited>T. Urbanik</cited>
+			<cited>David A. Hensher</cited>
+			<cited>Ronghui Liu</cited>
+			<citedby>Saša Ahac</citedby>
+			<citedby>Anna Grana</citedby>
+			<citedby>Claudio Guarnaccia</citedby>
+			<citedby>John S Butler</citedby>
+			<citedby>Nagui Rouphail</citedby>
+			<follower>Nurten Akgün</follower>
+			<follower>Richard Llewellyn</follower>
+			<follower>Marco Guerrieri</follower>
+			<follower>João F. Bigotte</follower>
+			<follower>Pedro Lopes</follower>
+			<following>Ana Laura Domingues Costa</following>
+			<following>Jose Martins</following>
+			<following>Vincenzo Torrieri</following>
+			<following>João Carlos Vieira</following>
+			<following>José S. Antunes do Carmo</following>
+		</network>
+		<projects>
+			<project>
+				<name>MOBI-AGE: Promoting urban mobility in ageing populations
+				</name>
+				<abstract>This exploratory project aims to contribute to the
+					promotion of sustainable mobility for the aged population. This
+					population, with some restrictions in terms of personal mobility,
+					do not always have easy access to urban spaces and to the
+					components of the transport system. If up to now the quantitative
+					of this population could be...
+				</abstract>
+			</project>
+			<project>
+				<name>Project AWAREE</name>
+			</project>
+			<project>
+				<name>AROUND</name>
+			</project>
+		</projects>
+		<research>
+			<item>
+				<name>How long does it take to the first drowsiness state: An
+					exploratory analysis
+				</name>
+				<type>Presentation</type>
+				<author>Sónia Soares</author>
+				<author>António Lobo</author>
+				<author>Pedro Oliveira Ferreira</author>
+				<author>Ana Bastos Silva</author>
+				<date>2019-10-01</date>
+			</item>
+			<item>
+				<name>A Real-time Traffic Signal Control Strategy Under Partially
+					Connected Vehicle Environment
+				</name>
+				<type>Article</type>
+				<author>Chandan Kancharla</author>
+				<author>Alvaro Seco</author>
+				<author>Ana Bastos Silva</author>
+				<date>2019-02-01</date>
+				<abstract>The performance of a traffic system tends to improve as
+					the percentage of connected vehicles (CV) in total flow increases.
+					However, due to low CV penetration in the current vehicle market,
+					improving the traffic signal operation remains a challenging task.
+					In an effort to improve the performance of CV applications at low
+					penetration rates, the autho...
+				</abstract>
+			</item>
+			<item>
+				<name>AWAREE – A data driven towards driver attention</name>
+				<type>Poster</type>
+				<author>Sara Ferreira</author>
+				<author>António Fidalgo do Couto</author>
+				<author>Joana Dourado</author>
+				<author>José Pedro Tavares</author>
+				<author>Ana Bastos Silva</author>
+				<date>2018-10-01</date>
+			</item>
+			<item>
+				<name>Operational analysis of innovative roundabout layouts</name>
+				<type>Conference Paper</type>
+				<author>Tânia Mendes</author>
+				<author>Ana Bastos Silva</author>
+				<author>António Luís Vasconcelos</author>
+				<author>Raul Almeida</author>
+				<date>2018-05-01</date>
+			</item>
+		</research>
+	</researcher>
+	<researcher>
+		<researchername>Nuno Laranjeiro</researchername>
+		<institution>University of Coimbra</institution>
+		<department>Department of Informatics Engineering</department>
+		<position>Professor (Assistant)</position>
+		<rgscore>18.86</rgscore>
+		<academicqualifications>PhD</academicqualifications>
+		<about>
+			<reads>14778</reads>
+			<introduction>Assistant Professor at the Department of Informatics
+				Engineering at the University of Coimbra (UC), Portugal. Researcher
+				and member of the Software and Systems Engineering Group (SSE) of
+				the Center for Informatics and Systems of the University of Coimbra
+				(CISUC). Webpage at http://eden.dei.uc.pt/~cnl
+			</introduction>
+			<skill>Java Programming</skill>
+			<skill>Security</skill>
+			<skill>Cloud Computing</skill>
+			<skill>Information Security</skill>
+			<skill>Software Development</skill>
+			<skill>Web Development</skill>
+			<skill>Object-Oriented Programming</skill>
+			<skill>Web Application Programming</skill>
+			<skill>Relational Databases</skill>
+			<skill>PHP</skill>
+		</about>
+		<network>
+			<cited>Nashat Mansour</cited>
+			<cited>Gregor Kiczales</cited>
+			<cited>Holger Giese</cited>
+			<cited>Raffaela Mirandola</cited>
+			<cited>Hausi A. Müller</cited>
+			<citedby>Gyu Myoung Lee</citedby>
+			<citedby>Danny Weyns</citedby>
+			<citedby>Romain Rouvoy</citedby>
+			<citedby>Robert Feldt</citedby>
+			<citedby>Carlo Ghezzi</citedby>
+			<follower>Marcelo Palma Salas</follower>
+			<follower>Afonso Comba de Araújo Neto</follower>
+			<follower>Alexandre Miguel Pinto</follower>
+			<follower>Raquel Amaral</follower>
+			<follower>Naghmeh Ivaki</follower>
+			<following>Marco Vieira</following>
+			<following>Edmundo Monteiro</following>
+			<following>José Fonseca</following>
+			<following>Roberto Natella</following>
+			<following>Jorge Bernardino</following>
+		</network>
+		<projects>
+			<project>
+				<name>TACID: Timely ACID Transactions in DBMS</name>
+			</project>
+			<project>
+				<name>SORTS: Supporting the Orchestration of Resilient and
+					Trustworthy Fog Services
+				</name>
+				<abstract>Emerging applications in the context of the Internet of
+					Everything (IoE) introduce real?time and low latency requirements,
+					which pose new challenges on the services to be provided to the
+					users. Fog Computing is a paradigm that extends Cloud Computing to
+					the network edge, allowing a wider geographic coverage, load...
+				</abstract>
+			</project>
+		</projects>
+		<research>
+			<item>
+				<name>Test-Based Interoperability Certification for Web Services
+				</name>
+				<type>Conference Paper</type>
+				<author>Ivano Alessandro Elia</author>
+				<author>Nuno Laranjeiro</author>
+				<author>Marco Vieira</author>
+				<date>2015-06-01</date>
+				<abstract>Web Services are designed with the key goal of providing
+					interoperable application-to-application interaction, regardless of
+					the platforms involved. Although experience shows that
+					interoperability is difficult to achieve, developers still have
+					limited tools to assess the interoperability of their services and,
+					to the best of our knowledge, none abl...
+				</abstract>
+			</item>
+			<item>
+				<name>A Technique for Deploying Robust Web Services
+				</name>
+				<type>Article</type>
+				<author>Nuno Laranjeiro</author>
+				<author> Marco Vieira</author>
+				<author>Henrique Madeira</author>
+				<date>2012-11-01</date>
+				<abstract>Developing robust web services is a difficult task. Field
+					studies show that a large number of web services are deployed with
+					robustness problems (i.e., presenting unexpected behaviors in the
+					presence of invalid inputs). Although several techniques for the
+					identification of robustness problems have been proposed in the
+					past, there is no practical ap...
+				</abstract>
+			</item>
+		</research>
+	</researcher>
+	<researcher>
+		<researchername>Rui Oliveira</researchername>
+		<institution>University of Coimbra</institution>
+		<department>Centre for Informatics and Systems (CISUC)</department>
+		<position>Researcher</position>
+		<rgscore>5.73</rgscore>
+		<academicqualifications>Master of Technology</academicqualifications>
+		<about>
+			<reads>1011</reads>
+			<introduction>
+			</introduction>
+			<skill>Software Development</skill>
+			<skill>Java Programming</skill>
+			<skill>Object-Oriented Programming</skill>			
+			<skill>Web Development</skill>
+			<skill>SQL</skill>
+			<skill>Software Programming</skill>
+			<skill>C++</skill>
+			<skill>Java Language</skill>
+			<skill>C</skill>
+			<skill>HTML code programming</skill>
+		</about>
+		<network>
+			<cited>Azzam Mourad</cited>
+			<cited>Ian Witten</cited>
+			<cited>Mark Hall</cited>
+			<cited>Nikolaos M. Avouris</cited>
+			<cited>Jozo J. Dujmović</cited>
+			<citedby>Pedro S. Rodríguez Hernández</citedby>
+			<citedby>Gizelle Lemos</citedby>
+			<citedby>Seyed Morteza Babamir</citedby>
+			<citedby>Vianca Vega</citedby>
+			<citedby>Afonso Comba de Araújo Neto</citedby>
+			<follower>Ricardo Moura</follower>
+			<follower>Mazen Ismaeel Ghareb</follower>
+			<follower>Ivano Alessandro Elia</follower>
+			<follower>Jorge Carvalho Gomes</follower>
+			<following>Karama Kanoun</following>
+			<following>Yves Y. Crouzet</following>
+		</network>
+		<projects>
+		</projects>
+		<research>
+			<item>
+				<name>An approach for benchmarking the security of web service frameworks
+				</name>
+				<type>Article</type>
+				<author>Rui Oliveira</author>
+				<author>Miquel Martínez Raga</author>
+				<author>Nuno Laranjeiro</author>
+				<author>Marco Vieira</author>
+				<date>2019-11-01</date>
+			</item>
+			<item>
+				<name>Assessing the Security of Web Service Frameworks against Denial of Service Attacks
+				</name>
+				<type>Article</type>
+				<author>Rui Oliveira</author>
+				<author>Nuno Laranjeiro</author>
+				<author>Marco Vieira</author>
+				<date>2015-07-01</date>
+				<abstract>Web services frequently provide business–critical functionality over the Internet, being widely exposed and thus representing an attractive target for security attacks. In particular, Denial of Service (DoS) attacks may inflict severe damage to web service providers, including financial and reputation losses. This way, it is vital that the software...
+				</abstract>
+			</item>
+			<item>
+				<name>Characterizing the Performance of Web Service Frameworks Under Security Attacks
+				</name>
+				<type>Conference Paper</type>
+				<author>Rui Oliveira</author>
+				<author>Nuno Laranjeiro</author>
+				<author>Marco Vieira</author>
+				<date>2015-04-01</date>
+			</item>
+		</research>
+	</researcher>
+</researchgate>
+	

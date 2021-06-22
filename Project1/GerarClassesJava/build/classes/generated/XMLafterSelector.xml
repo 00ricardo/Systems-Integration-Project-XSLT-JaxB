@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<researchgate>
+    <person>
+        <personName>Henrique Madeira</personName>
+        <institution>
+            <instName>UC</instName>
+            <department>Department of Informatics Engineering</department>
+            <position>Full Professor</position>
+        </institution>
+        <institution>
+            <instName>Software and Systems Engineering</instName>
+        </institution>
+        <introduction>research topics: experimental evaluation of dependable computing systems, including security evaluation and benchmarking, fault injection techniques, error detection mechanisms, and transactional systems dependability.</introduction>
+        <skill>date wh</skill>
+        <skill>datebse mng</skill>
+        <skill>date mdl</skill>
+        <reads>22211</reads>
+        <citations>3367</citations>
+        <researchExperience>
+            <datei>1990-01-01</datei>
+            <datef>2015-11-01</datef>
+            <instName>UC</instName>
+            <department>Department of Informatics Engineering</department>
+            <position>Full Professor</position>
+            <address>Coimbra, Portugal</address>
+            <description>research topics: experimental evaluation of dependable computing systems, including security evaluation and benchmarking, fault injection techniques, error detection mechanisms, and transactional systems dependability</description>
+        </researchExperience>
+        <cited>
+            <personName>Miguel Castelo-Branco</personName>
+            <instName>University of Coimbra</instName>
+        </cited>
+        <cited>
+            <personName>J.A.Abraham</personName>
+            <instName>University of Texas at Austin</instName>
+        </cited>
+        <citedby>
+            <personName>András Pataricza</personName>
+            <instName>Budapest University of Technology</instName>
+        </citedby>
+        <citedby>
+            <personName>José Fonseca</personName>
+        </citedby>
+        <citedby>
+            <personName>Sebastien Tixeuil</personName>
+            <instName>Sorbonne Université</instName>
+        </citedby>
+        <followers>
+            <personName>João Sá</personName>
+            <instName></instName>
+        </followers>
+        <followers>
+            <personName>Javier Cámara</personName>
+            <instName>The University of York</instName>
+        </followers>
+        <following>
+            <personName>Rodrigo Pastl</personName>
+            <instName>Fraunhofer Institute for Production</instName>
+        </following>
+        <following>
+            <personName>Janusz Sosnowsky</personName>
+            <instName>Warsaw University of technology</instName>
+        </following>
+        <project>
+            <projectName>TACID</projectName>
+            <state>Archived Project</state>
+        </project>
+        <project>
+            <projectName> Software Fault Injection</projectName>
+            <state>Project</state>
+            <description>How to inject realistic software faults (i.e., bugs) to evaluate the behavior of software components and systems in the presence of active software faults. Covers the research on software fault injection proposals and tools since 2000.</description>
+        </project>
+        <research>
+            <researchName>The Effects of soft errors and mitigation strategies for virtualization servers</researchName>
+            <type>Article</type>
+            <date>2020-02-01</date>
+            <author>Frederico Cerveira</author>
+            <author>Raul Barbosa</author>
+            <author>Henrique Madeira</author>
+            <author>Filipe Araujo</author>
+            <description>Virtualized servers compose the majority of cloud computing environments, where these nodes are used to host multiple clients over the same hardware.</description>
+        </research>
+        <research>
+            <researchName>The most frequent programming mistakes that cause software vulnerabilities</researchName>
+            <type>Preprint</type>
+            <date>2019-12-01</date>
+            <author>Frederico Cerveira</author>
+            <author>Raul Barbosa</author>
+            <author>Henrique Madeira</author>
+            <author>Luis Gonçalo</author>
+        </research>
+        <research>
+            <researchName> Spotting Problematic Code Lines using Nonintrusive Programers' Biofeedback</researchName>
+            <type>Conference Paper</type>
+            <date>2019-10-01</date>
+            <author>Ricardo Couceiro</author>
+            <author>Henrique Madeira</author>
+        </research>
+        <coauthor>
+            <personName>Philipe Koopman</personName>
+            <instName>carnegie mellon unviersity</instName>
+        </coauthor>
+        <coauthor>
+            <personName>Joaquim Henriques Macedo</personName>
+            <instName>University of Minho</instName>
+        </coauthor>
+    </person>
+</researchgate>

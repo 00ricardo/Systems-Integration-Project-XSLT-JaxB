@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<researchgate>
+	<person>
+		<personName>Henrique Madeira</personName>
+		<institution>
+			<instName>UC</instName>
+			<department>Department of Informatics Engineering</department>
+			<position>Full Professor</position>
+		</institution>
+		<institution>
+			<instName>Software and Systems Engineering</instName>
+		</institution>
+		<introduction>research topics: experimental evaluation of dependable computing systems, including security evaluation and benchmarking, fault injection techniques, error detection mechanisms, and transactional systems dependability.</introduction>
+		<skill>date wh</skill>
+		<skill>datebse mng</skill>
+		<skill>date mdl</skill>
+		<reads>22211</reads>
+		<citations>3367</citations>
+		<researchExperience>
+			<datei>1990-01-01</datei>
+			<datef>2015-11-01</datef>
+			<instName>UC</instName>
+			<department>Department of Informatics Engineering</department>
+			<position>Full Professor</position>
+			<address>Coimbra, Portugal</address>
+			<description>research topics: experimental evaluation of dependable computing systems, including security evaluation and benchmarking, fault injection techniques, error detection mechanisms, and transactional systems dependability</description>
+		</researchExperience>
+		
+	
+		<cited>
+			<personName>Miguel Castelo-Branco</personName>
+			<instName>University of Coimbra</instName>
+		</cited>
+		<cited>
+			<personName>J.A.Abraham</personName>
+			<instName>University of Texas at Austin</instName>
+		</cited>
+		<citedby>
+			<personName>András Pataricza</personName>
+			<instName>Budapest University of Technology</instName>
+		</citedby>
+		<citedby>
+			<personName>José Fonseca</personName>
+		</citedby>
+		<citedby>
+			<personName>Sebastien Tixeuil</personName>
+			<instName>Sorbonne Université</instName>
+		</citedby>
+		<followers>
+			<personName>João Sá</personName>
+			<instName></instName>
+		</followers>
+		<followers>
+			<personName>Javier Cámara</personName>
+			<instName>The University of York</instName>
+		</followers>
+		<following>
+			<personName>Rodrigo Pastl</personName>
+			<instName>Fraunhofer Institute for Production</instName>
+		</following>
+		<following>
+			<personName>Janusz Sosnowsky</personName>
+			<instName>Warsaw University of technology</instName>
+		</following>
+	
+	
+		<project>
+			<projectName>TACID</projectName>
+			<state>Archived Project</state>
+		</project>
+		<project>
+			<projectName> Software Fault Injection</projectName>
+			<state>Project</state>
+			<description>How to inject realistic software faults (i.e., bugs) to evaluate the behavior of software components and systems in the presence of active software faults. Covers the research on software fault injection proposals and tools since 2000.</description>
+		</project>
+		<research>
+			<researchName>The Effects of soft errors and mitigation strategies for virtualization servers</researchName>
+			<type>Article</type>
+			<date>2020-02-01</date>
+			<author>Frederico Cerveira</author>
+			<author>Raul Barbosa</author>
+			<author>Henrique Madeira</author>
+			<author>Filipe Araujo</author>
+			<description>Virtualized servers compose the majority of cloud computing environments, where these nodes are used to host multiple clients over the same hardware.</description>
+		</research>
+		<research>
+			<researchName>The most frequent programming mistakes that cause software vulnerabilities</researchName>
+			<type>Preprint</type>
+			<date>2019-12-01</date>
+			<author>Frederico Cerveira</author>
+			<author>Raul Barbosa</author>
+			<author>Henrique Madeira</author>
+			<author>Luis Gonçalo</author>
+		</research>
+		<research>
+			<researchName> Spotting Problematic Code Lines using Nonintrusive Programers' Biofeedback</researchName>
+			<type>Conference Paper</type>
+			<date>2019-10-01</date>
+			<author>Ricardo Couceiro</author>
+			<author>Henrique Madeira</author>
+		</research>
+		
+		<coauthor>
+			<personName>Philipe Koopman</personName>
+			<instName>carnegie mellon unviersity</instName>
+		</coauthor>
+		<coauthor>
+			<personName>Joaquim Henriques Macedo</personName>
+			<instName>University of Minho</instName>
+		</coauthor>
+	
+	</person>
+		
+	<person>
+		<personName>Paula Prata</personName>
+		<institution>
+			<instName>Universidade da Beira Interior</instName>
+			<department>Department of Computer Science</department>
+		</institution>
+		<introduction></introduction>
+		<skill>date wh</skill>
+		<skill>virtualization</skill>
+		<skill>models</skill>
+		<skill>algorithms</skill>
+		<reads>1151</reads>
+		<citations>111</citations>
+		<researchExperience></researchExperience>
+		
+		<cited>
+			<personName>Thomas Back</personName>
+			<instName>Leiden University</instName>
+		</cited>
+		<cited>
+			<personName>J.A.Abraham</personName>
+			<instName>University of Texas at Austin</instName>
+		</cited>
+		<citedby>
+			<personName>Daniel Katz</personName>
+			<instName>University of Illinous</instName>
+		</citedby>
+		<citedby>
+			<personName>Julio Ortega</personName>
+			<instName>University of Granada</instName>
+		</citedby>
+		<followers>
+			<personName>João Barroso</personName>
+			<instName>Universidade Tras os monstes</instName>
+		</followers>
+		<followers>
+			<personName>Emanuel Dinis</personName>
+			<instName>Universidade da Beira Interior</instName>
+		</followers>
+		<following>
+			<personName>Nuno Garcia</personName>
+			<instName>Universidade da Beira Interior</instName>
+		</following>
+		<following>
+			<personName>Joao Muranho</personName>
+			<instName>Universidade da Beira interior</instName>
+		</following>
+		
+		<research>
+			<researchName>Computing Topics on Multiple Imputation in Big Identifiable date Using R: An Application to Educational research</researchName>
+			<type>Chapter</type>
+			<date>2019-06-01</date>
+			<author>Maria Farrao</author>
+			<author>Paula Prata</author>
+			<description>This article shows how to conduct multiple imputation in big identifiable date for educational research purposes. The R statistical package and procedures to handle missing date applied for the purpose of this study were “BaylorEdPsych” and “mi”. </description>
+		</research>
+		<research>
+			<researchName>Web application for the analysis of assessment tests</researchName>
+			<type>Article</type>
+			<date>2018-09-01</date>
+			<author>Paula Prata</author>
+			<author>Luis Duarte</author>
+			<author>Maria Farrao</author>
+		</research>
+		<research>
+			<researchName> Management of virtual machine images in heterogeneous clouds</researchName>
+			<type>Article</type>
+			<date>2015-01-01</date>
+			<author>Paula Prata</author>
+		</research>
+
+	
+		<coauthor>
+			<personName>Eric Ngai</personName>
+			<instName>the hong kong unviersity</instName>
+		</coauthor>
+		<coauthor>
+			<personName>Paulo Fazendeiro</personName>
+			<instName>Universidade da Beira Interior</instName>
+		</coauthor>
+		<coauthor>
+			<personName>C.Rafele</personName>
+			<instName>politecnico di Torino</instName>
+		</coauthor>
+	
+
+	</person>
+
+	<person>
+	
+		<personName>Miguel Castelo-Branco</personName>
+		<institution>
+			<instName>UC</instName>
+			<department>Institute of Systems and Robotics(IBILI)</department>
+			<position>research Director</position>
+		</institution>
+		<institution>
+			<instName>CIBIT - Coimbra Institute for Biomedical Imaging and Translational research</instName>
+		</institution>
+		<introduction></introduction>
+		<skill>neuroimaging</skill>
+		<skill>neurobiology</skill>
+		<skill>neurobiology and brain physiology</skill>
+		<reads>35403</reads>
+		<citations>3428</citations>
+		<researchExperience>
+			<datei>2009-06-01</datei>
+			<instName>ICNAS, Brain Imaging Network of Portugal</instName>
+			<department>Brain Imaging and Neurophysiology</department>
+			<position>Director</position>
+			<address></address>
+		</researchExperience>
+		<researchExperience>
+			<datei>2008-01-01</datei>
+			<datef>2014-03-01</datef>
+			<instName>University of Coimbra</instName>
+			<department>Institute for Biomedical Imaging and Life Sciences</department>
+			<position>research Director</position>
+			<address>null, Portugal</address>
+		</researchExperience>
+		<researchExperience>
+			<datei>2004-01-01</datei>
+			<datef>2012-12-01</datef>
+			<instName>Universidade de Coimbra</instName>
+			<department>Institute of Systems and Robotics</department>
+			<position></position>
+			<address>null, Portugal</address>
+		</researchExperience>
+		
+	
+		<cited>
+			<personName>Jacques Martinerie</personName>
+			<instName>Sorbonne Université</instName>
+		</cited>
+		<cited>
+			<personName>Peter König</personName>
+			<instName>Universität Osnabrück</instName>
+		</cited>
+		<cited>
+			<personName>Clifford R Jack</personName>
+			<instName>Mayo Foundation for Medical Education and research</instName>
+		</cited>
+		<citedby>
+			<personName>Susana Mouga</personName>
+			<instName>University of Coimbra</instName>
+		</citedby>
+		<citedby>
+			<personName>Maria Fatima Silva</personName>
+			<instName>University of Coimbra</instName>
+		</citedby>
+		<citedby>
+			<personName>Gabriel Pires</personName>
+			<instName>Polytechnic Institute of Tomar</instName>
+		</citedby>
+		<followers>
+			<personName>Inês R. Violante</personName>
+			<instName>University of Surrey</instName>
+		</followers>
+		<followers>
+			<personName>Vítor Hugo Alves</personName>
+			<instName>University of Coimbra</instName>
+		</followers>
+		<following>
+			<personName>Axel Kohler</personName>
+			<instName>Universität Osnabrück</instName>
+		</following>
+		<following>
+			<personName>Hauke R Heekeren</personName>
+			<instName>Freie Universität Berlin</instName>
+		</following>
+		
+		<project>
+			<projectName>Non-invasive optical coherence tomography towards the imaging of the neurodegenerative disease: from the animal retina to the human brain.</projectName>
+			<state>Project</state>
+			<description>Identify retinal biomarkers of Alzheimer's disease</description>
+		</project>
+		<project>
+			<projectName>Impact of advertising marketing campaigns on diabetic behavior change - a fMRI study</projectName>
+			<state>Project</state>
+			<description>Some specific areas, such as neuromarketing, have tried to understand how certain stimuli, with their own characteristics, can influence their perception and, consequently, the decision making on the observer.</description>
+		</project>
+	
+		<research>
+			<researchName>Fraunhofer Portugal | Best Paper Award</researchName>
+			<type>date</type>
+			<date>2020-02-01</date>
+			<author>Ana Nunes</author>
+			<author>Gilberto Silva</author>
+			<author>Carolina Alvesa</author>
+			<author>Rui Bernardes</author>
+		</research>
+		<research>
+			<researchName>Morphometry and gyrification in bipolar disorder and schizophrenia: a comparative MRI study</researchName>
+			<type>Article</type>
+			<date>2020-01-01</date>
+			<author>Nuno Madeira</author>
+			<author>João Valente Duarte</author>
+			<author>Ricardo Martins</author>
+			<author>Miguel Castelo-Branco</author>
+			<description>Schizophrenia is believed to be a neurodevelopmental disease with high heritability. Differential diagnosis is often challenging, especially in early phases, personNamely with other psychotic disorders or even mood disorders. such as bipolar disorder with psychotic symptoms. </description>
+		</research>
+		<research>
+			<researchName> Is the Retina a Mirror of the Aging Brain? Aging of Neural Retina Layers and Primary Visual Cortex Across the Lifespan</researchName>
+			<type>Article</type>
+			<date>2020-01-01</date>
+			<author>Lília Jorge</author>
+			<author>Nádia Canário</author>
+			<author>Hugo Quental</author>
+			<author>Miguel Castelo-Branco</author>
+		</research>
+		
+		<coauthor>
+			<personName>Alexandre Sayal</personName>
+			<instName> University of Coimbra</instName>
+		</coauthor>
+		<coauthor>
+			<personName>Inês Alexandra Almeida</personName>
+			<instName> University of Coimbra</instName>
+		</coauthor>
+		<coauthor>
+			<personName>Gabriel Nascimento Costa</personName>
+			<instName> University of Coimbra</instName>
+		</coauthor>
+		<coauthor>
+			<personName>António Francisco Ambrósio</personName>
+			<instName> University of Coimbra</instName>
+		</coauthor>
+		<coauthor>
+			<personName>Gina Caetano</personName>
+			<instName> University of Lisbon</instName>
+		</coauthor>
+
+	</person>
+
+</researchgate>
+
