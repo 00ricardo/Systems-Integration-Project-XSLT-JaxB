@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="bookdepository">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="book"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="bookTitle"/>
+        <xs:element ref="bookInitials"/>
+        <xs:element maxOccurs="unbounded" ref="author"/>
+        <xs:element ref="categorie"/>
+        <xs:element ref="bookSummary"/>
+        <xs:element ref="rating"/>
+        <xs:element ref="pagesNumber"/>
+        <xs:element ref="publicationDate"/>
+        <xs:element ref="publisher"/>
+        <xs:element ref="locationCity"/>
+        <xs:element ref="locationCountry"/>
+        <xs:element ref="language"/>
+        <xs:element ref="ISBN10"/>
+        <xs:element ref="ISBN13"/>
+        <xs:element ref="sellerRank"/>
+        <xs:element ref="linkImg"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bookTitle" type="xs:string"/>
+  <xs:element name="bookInitials" type="xs:NCName"/>
+  <xs:element name="author">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="authorName"/>
+        <xs:element ref="authorDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="authorName" type="xs:string"/>
+  <xs:element name="authorDescription" type="xs:string"/>
+  <xs:element name="categorie" type="xs:string"/>
+  <xs:element name="bookSummary" type="xs:string"/>
+  <xs:element name="rating" type="xs:string"/>
+  <xs:element name="pagesNumber" type="xs:integer"/>
+  <xs:element name="publicationDate" type="xs:NMTOKEN"/>
+  <xs:element name="publisher" type="xs:string"/>
+  <xs:element name="locationCity" type="xs:string"/>
+  <xs:element name="locationCountry" type="xs:string"/>
+  <xs:element name="language" type="xs:NCName"/>
+  <xs:element name="ISBN10" type="xs:NMTOKEN"/>
+  <xs:element name="ISBN13" type="xs:integer"/>
+  <xs:element name="sellerRank" type="xs:integer"/>
+  <xs:element name="linkImg" type="xs:anyURI"/>
+</xs:schema>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="skillsCatalog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="skillExpertise"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="totalCitationsNr"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="totalNrResearchesrs"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="topNResearchers"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="skillExpertise">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="skillName"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="person"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="skillName" type="xs:string"/>
+  <xs:element name="person">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="personName"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="institution"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="introduction"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="skill"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="reads"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="citations"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="researchExperience"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="cited"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="citedby"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="followers"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="following"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="project"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="research"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="coauthor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="institution">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="instName"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="department"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="position"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="introduction" type="xs:string"/>
+  <xs:element name="skill" type="xs:string"/>
+  <xs:element name="reads" type="xs:integer"/>
+  <xs:element name="citations" type="xs:integer"/>
+  <xs:element name="researchExperience">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="datei"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="datef"/>
+        <xs:sequence minOccurs="0">
+          <xs:element minOccurs="1" maxOccurs="1" ref="instName"/>
+          <xs:element minOccurs="0" maxOccurs="1" ref="department"/>
+          <xs:element minOccurs="0" maxOccurs="1" ref="position"/>
+          <xs:element minOccurs="0" maxOccurs="1" ref="address"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="description"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datei" type="xs:date"/>
+  <xs:element name="datef" type="xs:date"/>
+  <xs:element name="address" type="xs:string"/>
+  <xs:element name="cited">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="personName"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="instName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="citedby">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="personName"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="instName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="followers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="personName"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="instName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="following">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="personName"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="instName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="projectName"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="state"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="description"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="projectName" type="xs:string"/>
+  <xs:element name="state" type="xs:string"/>
+  <xs:element name="research">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="researchName"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="type"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="date"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="author"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="description"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="researchName" type="xs:string"/>
+  <xs:element name="type" type="xs:string"/>
+  <xs:element name="date" type="xs:date"/>
+  <xs:element name="author" type="xs:string"/>
+  <xs:element name="coauthor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="personName"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="instName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="totalCitationsNr" type="xs:integer"/>
+  <xs:element name="totalNrResearchesrs" type="xs:integer"/>
+  <xs:element name="topNResearchers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="researcherName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="researcherName" type="xs:string"/>
+  <xs:element name="personName" type="xs:string"/>
+  <xs:element name="instName" type="xs:string"/>
+  <xs:element name="department" type="xs:string"/>
+  <xs:element name="position" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+</xs:schema>

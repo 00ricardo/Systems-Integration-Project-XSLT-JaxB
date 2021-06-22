@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="listofauthors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="authorp"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="statistics"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="authorp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="name"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="authorDescription"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="bookp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="authorDescription" type="xs:string"/>
+  <xs:element name="bookp">
+    <xs:complexType>
+      <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" ref="bookTitle"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="bookInitials"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="categorie"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="bookSummary"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="rating"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="pagesNumber"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="publicationDate"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="publisher"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="locationCity"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="locationCountry"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="language"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="ISBN10"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="ISBN13"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="sellerRank"/>
+	    <xs:element minOccurs="1" maxOccurs="1" ref="linkImg"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bookTitle" type="xs:string"/>
+  <xs:element name="bookInitials" type="xs:string"/>
+  <xs:element name="categorie" type="xs:string"/>
+  <xs:element name="bookSummary" type="xs:string"/>
+  <xs:element name="rating" type="xs:string"/>
+  <xs:element name="pagesNumber" type="xs:integer"/>
+  <xs:element name="publicationDate" type="xs:date"/>
+  <xs:element name="publisher" type="xs:string"/>
+  <xs:element name="locationCity" type="xs:string"/>
+  <xs:element name="locationCountry" type="xs:string"/>
+  <xs:element name="language" type="xs:string"/>
+  <xs:element name="ISBN10" type="xs:string"/>
+  <xs:element name="ISBN13" type="xs:string"/>
+  <xs:element name="sellerRank" type="xs:integer"/>
+  <xs:element name="linkImg" type="xs:string"/>
+  <xs:element name="statistics">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="totalauthorsprocessed"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="authorName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="totalauthorsprocessed" type="xs:integer"/>
+  <xs:element name="authorName" type="xs:string"/>
+</xs:schema>
